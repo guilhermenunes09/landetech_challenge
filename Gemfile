@@ -1,5 +1,4 @@
-
-'https://rubygems.org'
+source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '~> 2.7.2'
@@ -9,10 +8,10 @@ gem 'rails', '~> 6.0.0'
 gem 'sqlite3', '~> 1.3.7', platforms: [:mingw, :x64_mingw]
 
 # Use Puma as the app server
-gem 'puma', '~> 4.1'
+gem 'puma'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.7'
+gem 'jbuilder', '~> 2.9' # Adjusted version to ensure compatibility with Rails 6.x
 
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
