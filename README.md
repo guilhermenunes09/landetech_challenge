@@ -9,24 +9,28 @@ Welcome! This README will help you set up and run the API. Make sure you have th
 
 1. Clone the repository
 
-        git clone https://github.com/guilhermenunes09/landetech_challenge.git
+       git clone https://github.com/guilhermenunes09/landetech_challenge.git
 
 2. CD into the new created folder
 
-        cd landetech_challenge
+       cd landetech_challenge
 
 3. Install necessary libraries on your system (Debian/Ubuntu)
 
-        sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
+       sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
 
 4. Install dependencies
 
-        bundle install
+       bundle install
 
 5. Create the database and run migrations:
 
-        rails db:create
-        rails db:migrate
+       rails db:create
+       rails db:migrate
+
+6. Run the server:
+
+       rails server
 
 ## API
 
