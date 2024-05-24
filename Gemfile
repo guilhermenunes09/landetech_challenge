@@ -5,7 +5,7 @@ ruby '~> 2.7.2'
 
 gem 'rails', '~> 6.0.0'
 
-gem 'sqlite3', '~> 1.3.7', platforms: [:mingw, :x64_mingw]
+gem 'sqlite3', '~> 1.4.0'
 
 # Use Puma as the app server
 gem 'puma'
